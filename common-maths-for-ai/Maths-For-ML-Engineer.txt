@@ -1,0 +1,91 @@
+✅ Linear Algebra – The Core
+
+Most ML algorithms are matrix math under the hood.
+• Vectors & Matrices: addition, multiplication, transpose
+• Dot Product & Norms: cosine similarity, distance metrics
+• Eigenvalues / SVD: PCA, dimensionality reduction
+
+- Interview question: "Explain how embeddings or PCA work"
+
+⸻
+
+✅ Probability & Statistics – For Uncertainty
+
+• Random Variables & Distributions (Gaussian, Bernoulli, etc.)
+• Expectation & Variance
+• Bayes’ Theorem: conditional probabilities, Naïve Bayes (super important)
+• Hypothesis Testing & p-values
+
+- Interview angle: "How would you evaluate a classifier with imbalanced data?"
+
+
+VERY IMP
+--------
+
+📌 Statistics & Probability
+
+1. What’s the difference between standard deviation and standard error, and when do we use each?
+2. Why is the Central Limit Theorem important in hypothesis testing?
+3. How do confidence intervals help interpret model predictions?
+4. Can a high correlation still mean there's no causation? Give a real-world example.
+5. What’s the intuition behind p-values, and why are they often misinterpreted?
+6. In what situations does the mean give misleading information compared to the median?
+7. What is heteroscedasticity, and why is it a problem in regression analysis?
+
+
+
+
+⸻
+
+✅ Calculus – Just the Essentials
+
+You need enough to understand optimization:
+• Derivatives & Gradients
+• Chain Rule (for backpropagation)
+• Partial Derivatives & Gradient Descent
+
+- Interview angle: "Walk me through backprop in a neural net"
+
+⸻
+
+✅ Linear/Nonlinear Optimization
+
+• Convex vs non-convex problems
+• Lagrange multipliers (basics)
+• Understanding loss landscapes
+
+- Interview angle: "Why does gradient descent sometimes get stuck?"
+
+⸻
+
+✅ Discrete Math & DSA Crossover
+
+For coding rounds:
+• Graph theory (BFS/DFS)
+• Probability in algorithms (hashing, randomization)
+• Combinatorics for sampling questions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+✅ How to Study (Without Burning Out)
+
+• YouTube: StatQuest (probability/stats), 3Blue1Brown (linear algebra & calculus), Gilbert Strang lectures (very good)
+• Practice: Derive gradients of simple models (linear regression, softmax) by hand.
+
+
+
+
+
+
