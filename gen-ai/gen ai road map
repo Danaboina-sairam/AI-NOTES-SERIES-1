@@ -1,0 +1,41 @@
+Step 1: Master the Fundamentals
+→ LLMs
+→ Embeddings
+→ Retrieval
+→ Prompting
+→ Fine-Tuning
+Not just how they work.
+Why they work.
+And where they fail.
+
+Step 2: Learn System Design
+→ RAG Architectures
+→ Agent Workflows
+→ Memory Systems
+→ Evaluation Pipelines
+→ Production Deployments
+Because AI interviews increasingly test systems, not components.
+
+Step 3: Study Failure Modes
+→ Hallucinations
+→ Retrieval Misses
+→ Context Overflows
+→ Cost Explosions
+→ Latency Issues
+Great engineers understand failures better than features.
+
+Step 4: Learn Evaluation
+This is where most candidates struggle.
+→ Precision@K
+→ Recall@K
+→ Ground Truth Datasets
+→ Human Evaluation
+→ LLM-as-a-Judge
+If you can't measure quality, you can't improve quality.
+
+Step 5: Practice Real Interview Questions
+Not theoretical questions.
+The kind of questions that force you to think:
+"What would you do?"
+"Why did you choose that?"
+"What trade-offs are you making?"
