@@ -39,3 +39,69 @@ The kind of questions that force you to think:
 "What would you do?"
 "Why did you choose that?"
 "What trade-offs are you making?"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Level 1: GenAI & RAG Basics
+GenAI Introduction – Get familiar with what Generative AI is and where it's used.
+Basics of LLMs – Understand how Large Language Models are trained and used.
+Prompt Engineering – Learn to write effective prompts for better LLM results.
+LLM Preprocessing – Clean, chunk, and format data for AI tasks.
+RAG Fundamentals – Combine LLMs with search to retrieve accurate information.
+Vector Databases – Store and search embeddings using Pinecone, Chroma, etc.
+API Wrappers – Interact with LLMs using LangChain, LlamaIndex, or direct APIs.
+Tool Integration – Let LLMs call tools like search, code execution, or APIs.
+
+
+
+Level 2: AI Agent Essentials
+What Are AI Agents? – Learn how agents plan, reason, and act autonomously.
+Agentic Frameworks – Explore LangChain, CrewAI, AutoGen, and similar frameworks.
+Build Your First Agent – Create a simple AI agent that performs real tasks.
+Agent Workflows – Design how agents think, act, and complete tasks.
+Agent Memory – Add memory so agents can recall past actions and context.
+Agent Evaluation – Track agent accuracy, performance, and reliability.
+Multi-Step Reasoning – Teach agents to think in logical sequences.
+Multi-Agent Systems – Enable agents to work together on complex tasks.
+Action Planning – Make agents plan, adapt, and retry intelligently.
+Safety & Guardrails – Add filters and controls to keep agents safe and factual.
+
+
+
+Level 3: Advanced Agent Skills
+Real-World Integration – Connect agents to tools like Slack, Notion, Gmail, etc.
+Autonomous Loops – Create agents that run and update tasks on their own.
+Custom Toolkits – Equip agents with APIs, Python tools, or custom functions.
+Optimize Performance – Improve speed, cost efficiency, and error handling.
+Deploy to Production – Host and manage AI agents for real users.
