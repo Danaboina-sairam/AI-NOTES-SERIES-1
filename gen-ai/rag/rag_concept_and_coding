@@ -1,0 +1,111 @@
+What is RAG (Retrieval-Augmented Generation)? A Simple Explanation for Java Developers
+
+If you've started exploring Spring AI or Large Language Models (LLMs), you've probably heard the term RAG everywhere.
+
+But what exactly is it?
+
+Let's understand it with a simple example.
+
+Imagine you ask ChatGPT:
+
+"What is my company's leave policy?"
+
+The model doesn't know because it wasn't trained on your company's internal documents.
+
+Without additional information, it may:
+
+- Give a generic answer
+- Hallucinate (generate incorrect information)
+- Say it doesn't know
+
+Now imagine your application first searches your company's HR documents, retrieves the relevant policy, and then provides that information to the LLM.
+
+The AI now answers:
+
+"According to your company's Leave Policy 2025, employees are entitled to 24 paid leaves annually."
+
+This is RAG.
+
+What does RAG stand for?
+
+R → Retrieval
+A → Augmented
+G → Generation
+
+Instead of relying only on what the AI learned during training, it first retrieves relevant information, augments the prompt with that information, and then generates a response.
+
+How does RAG work?
+
+User Question
+ │
+ ▼
+Search Relevant Documents
+ │
+ ▼
+Retrieve Best Matches
+ │
+ ▼
+Attach Context to Prompt
+ │
+ ▼
+Large Language Model (LLM)
+ │
+ ▼
+Accurate Response
+
+A Banking Example
+
+Suppose a customer asks:
+
+"What is the interest rate for my home loan?"
+
+Without RAG:
+
+- The AI may guess.
+- The answer may be outdated or incorrect.
+
+With RAG:
+
+1. Search the bank's latest policy documents.
+2. Retrieve the relevant information.
+3. Send it to the LLM as context.
+4. Generate a response based on current data.
+
+The result is more reliable and grounded in your organization's knowledge.
+
+Why is RAG important?
+
+✅ Reduces AI hallucinations
+✅ Uses your organization's latest documents
+✅ No need to retrain the model for every update
+✅ Provides more accurate and context-aware answers
+✅ Ideal for enterprise applications
+
+Where is RAG used?
+
+- Customer Support Chatbots
+- Banking Assistants
+- HR Policy Q&A
+- Legal Document Search
+- Knowledge Management Systems
+- Healthcare Information Systems
+
+How does Spring AI help?
+
+Spring AI simplifies the integration of:
+
+- LLMs (OpenAI, Gemini, etc.)
+- Embedding models
+- Vector databases
+- Retrieval pipelines
+
+This allows Java developers to build intelligent applications using familiar Spring concepts.
+
+Final Thoughts
+
+Think of an LLM as a brilliant student with a great memory—but one who hasn't read your company's documents.
+
+RAG hands the student the right textbook before asking the question.
+
+That's why RAG has become one of the most important patterns for building enterprise AI applications.
+
