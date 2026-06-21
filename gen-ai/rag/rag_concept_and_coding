@@ -109,3 +109,22 @@ RAG hands the student the right textbook before asking the question.
 
 That's why RAG has become one of the most important patterns for building enterprise AI applications.
 
+
+
+
+
+
+
+
+
+
+
+
+
+MCP Client
+   ├── PostgreSQL MCP
+   ├── MongoDB MCP
+   ├── Kafka MCP
+   ├── GitHub MCP
+   └── File MCP
+
