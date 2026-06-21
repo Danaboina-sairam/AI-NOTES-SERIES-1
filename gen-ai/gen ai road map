@@ -1,3 +1,44 @@
+Week 1. Basics of LLMs: Tokenization, Vectorization, Attention
+
+Week 2. Quantization and Fine-tuning: LoRA, QLoRA, FP16, Tool Use
+
+Week 3. The RAG Problem: What is RAG, Chunking, Reranking, Vector DBs
+
+Week 4. The RAG Code: Safety + Guardrails, Code RAG
+
+Week 5. AI Agents: ReAct Pattern, Tool Calling, LangChain, LangGraph
+
+Week 6. Context Engineering: Memory Systems, MCP, Multi-Agents
+
+Week 7. AI Engineering: Evals, Tradeoffs, Fine-tuning vs. RAG vs Prompting
+
+Week 8. Agentic System Design: Scalability, Design tradeoffs, Best Practices
+
+Week 9. Image and Reasoning Models: Images + Video, CLIP, Diffusion, CoT
+
+Week 10. Capstone Project: Build your own AI Project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Step 1: Master the Fundamentals
 → LLMs
 → Embeddings
