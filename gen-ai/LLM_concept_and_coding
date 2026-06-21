@@ -1,0 +1,60 @@
+The biggest mistake people make while learning LLM fine-tuning?
+They mix together things that belong in completely different categories.
+
+Someone says:
+"Should I use SFT or LoRA?"
+That question doesn't even make sense.
+Because SFT and LoRA solve different problems.
+
+Here's the mental model that simplified fine-tuning for me:
+Fine-tuning has 3 separate layers.
+
+Layer 1 → What data are you training on?
+↳ Instruction data
+↳ Chat conversations
+↳ Preference data
+
+Layer 2 → How does the model learn?
+↳ SFT
+↳ RLHF
+↳ DPO
+↳ PPO
+
+Layer 3 → How much of the model changes?
+↳ Full Fine-Tuning
+↳ LoRA
+↳ QLoRA
+↳ Adapters
+
+Most confusion happens when these layers get mixed together.
+
+For example:
+SFT is a learning method.
+LoRA is a parameter update method.
+RLHF is a preference learning method.
+
+Instruction tuning is simply a type of dataset.
+They're not competing techniques.
+They're different pieces of the same pipeline.
+
+A real training workflow often looks like:
+Pretraining
+↓
+SFT
+↓
+RLHF / DPO
+↓
+Deployment
+
+And each stage can use:
+↳ Full Fine-Tuning
+or
+↳ LoRA / QLoRA
+
+Once you separate:
+↳ Data
+↳ Learning
+↳ Parameters
+
+The entire fine-tuning ecosystem becomes much easier to understand.
+That's the framework I wish someone had shown me when I started learning LLMs.
