@@ -1,0 +1,33 @@
+MCP Client
+   ├── PostgreSQL MCP
+   ├── MongoDB MCP
+   ├── Kafka MCP
+   ├── GitHub MCP
+   └── File MCP
+
+
+
+Types of MCP Servers
+
+
+
+Agent to Tools: MCP
+--------------
+
+
+What happens when your AI agent needs another agent it has never met, built by a different company, to finish the job?
+
+They need a shared language. That is A2A.
+
+Remember MCP from earlier? It connects an agent to its tools. A2A goes the other direction. It connects an agent to other agents.
+
+The idea is simple. Every agent publishes an Agent Card, a small public profile that says what it can do and how to reach it. Your agent finds another agent, reads its card, and hands off a task. Different framework, different cloud, different company, does not matter. Neither side exposes its internals. They just exchange the task and the result.
+
+Picture a travel agent you built. To close a booking, it delegates flights to one vendor's agent and hotels to another's. Different teams, different stacks. They coordinate anyway, because they all speak A2A.
+
+The future is not one mega-agent. It is many specialists, owned by different people, working together. A2A is how they talk without custom glue for every pair.
+
+Built by Google, now an open standard under the Linux Foundation, with Java in the official SDKs. Your agents can join the conversation.
+
+
+
