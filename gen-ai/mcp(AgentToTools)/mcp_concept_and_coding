@@ -31,3 +31,45 @@ Built by Google, now an open standard under the Linux Foundation, with Java in t
 
 
 
+
+
+
+
+
+
+
+
+
+
+CampusX YouTube playlist teaches MCP the right way.
+Architecture → servers → clients. 8 videos. FREE.
+
+Here is what it actually covers:
+
+
+1. What MCP is and why it matters
+2. The Why: problem MCP solves for AI
+3. MCP Architecture: clients, servers, hosts
+4. The MCP Lifecycle: end to end
+5. Connect MCP Servers to Claude Desktop
+6. Build Local MCP Servers from scratch
+7. Build + Deploy Remote MCP Servers
+8. Build MCP Clients from scratch
+
+The progression:
+
+What → Why → Architecture → Lifecycle
+→ Connect → Build Local → Deploy Remote
+→ Build Your Own Client
+
+Most people:
+→ Hear MCP, nod, move on.
+→ Copy a server config, can't debug it.
+→ Never build a server or client.
+
+Few people:
+→ Understand the full MCP architecture.
+→ Build and deploy their own servers.
+→ Write MCP clients from scratch.
+
+Buzzword → confusion. 8 videos → clarity.
