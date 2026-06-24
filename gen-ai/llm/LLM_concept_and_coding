@@ -58,3 +58,67 @@ Once you separate:
 
 The entire fine-tuning ecosystem becomes much easier to understand.
 That's the framework I wish someone had shown me when I started learning LLMs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+🔹 1. Tokens
+LLMs don't read words.
+They read tokens.
+A token can be:
+• A word
+• Part of a word
+• A punctuation mark
+The more tokens you use, the more processing power and cost are involved.
+
+🔹 2. Context Window
+This is the model's working memory.
+It determines how much information the model can consider at one time.
+A larger context window means:
+✅ Better long conversations
+✅ Larger documents
+✅ More accurate reasoning
+
+🔹 3. Embeddings
+Embeddings convert text into numbers.
+Why?
+Because computers understand math, not language.
+Embeddings help AI understand that:
+"Car"
+"Vehicle"
+"Automobile"
+are closely related concepts.
+This is the foundation of semantic search and RAG.
+
+🔹 4. RAG (Retrieval-Augmented Generation)
+One of the biggest misconceptions:
+LLMs do not automatically know your company data.
+RAG allows AI to:
+→ Retrieve relevant information
+→ Feed it to the model
+→ Generate grounded answers
+Without RAG, your AI is guessing.
+With RAG, your AI is referencing.
+
+🔹 5. Inference
+Training teaches the model.
+Inference is when the model actually performs a task.
+Every time you ask ChatGPT a question, you're running inference.
+That's where speed, latency, and cost matter.
