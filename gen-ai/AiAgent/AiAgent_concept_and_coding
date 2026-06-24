@@ -45,3 +45,25 @@ Three tiers. Fifteen patterns. One decision before every build.
 - Single-agent patterns define what one agent can do alone.
 - Multi-agent patterns define how agents coordinate under load.
 - Feedback loop patterns define how systems recover and improve.
+
+
+
+
+
+
+
+
+
+
+
+8-Types of LLM used in Ai agents
+--------------------------------
+
+GPT
+MOE
+LRM
+VLM
+SLM
+LAM
+HRM
+LCM
